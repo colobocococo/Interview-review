@@ -1,4 +1,4 @@
-from server import *
+from src.server.server import *
 
 
 while True:
@@ -24,3 +24,4 @@ for i in range(1, 12):
 
 internal_data()
 external_data()
+
