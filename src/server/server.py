@@ -1,6 +1,6 @@
 from razdel import tokenize, sentenize
-from keywords import *
-from utils import *
+from src.server.keywords import *
+from src.server.utils import *
 import matplotlib.pyplot as plt
 import csv
 
@@ -255,3 +255,4 @@ def external_data():
     plt.legend(['управляющие глаголы', 'ключевые слова', 'глаголы-признаки командной работы',
                 'местоимения', 'субъект действий'])
     plt.show()
+
